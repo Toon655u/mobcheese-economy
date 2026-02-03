@@ -41,7 +41,7 @@ All commands should be run from `mobcheese-solana/app/` directory:
 ## Code Style and Conventions
 
 ### TypeScript/React
-- Use TypeScript strict mode is disabled (`strict: false` in tsconfig)
+- TypeScript strict mode is disabled (`strict: false` in tsconfig)
 - Use functional components with hooks
 - Client-side components must include `"use client"` directive
 - Use dynamic imports for wallet components (SSR disabled)
