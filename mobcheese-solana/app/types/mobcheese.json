@@ -1,0 +1,18 @@
+{
+  "version": "0.1.0",
+  "name": "mobcheese",
+  "instructions": [
+    {
+      "name": "joinFamily",
+      "accounts": [
+        { "name": "family", "isMut": true, "isSigner": false },
+        { "name": "authority", "isMut": true, "isSigner": true },
+        { "name": "systemProgram", "isMut": false, "isSigner": false }
+      ],
+      "args": []
+    }
+  ],
+  "metadata": {
+    "address": "8n1Q2Qk6Qk6Qk6Qk6Qk6Qk6Qk6Qk6Qk6Qk6Qk6Qk6Qk6"
+  }
+}
