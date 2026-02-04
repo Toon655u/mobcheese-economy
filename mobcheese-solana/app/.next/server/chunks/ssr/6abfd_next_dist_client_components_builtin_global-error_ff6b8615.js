@@ -1,3 +1,0 @@
-module.exports=[65,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(78112);a.n(d("[project]/mobcheese-solana/app/node_modules/next/dist/client/components/builtin/global-error.js <module evaluation>"))},5609,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(78112);a.n(d("[project]/mobcheese-solana/app/node_modules/next/dist/client/components/builtin/global-error.js"))},95121,a=>{"use strict";a.i(65);var b=a.i(5609);a.n(b)}];
-
-//# sourceMappingURL=6abfd_next_dist_client_components_builtin_global-error_ff6b8615.js.map
