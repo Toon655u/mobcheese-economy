@@ -1,7 +1,1 @@
-{"version": 2,
-  "buildCommand": "npm run build",
-  "outputDirectory": ".next",
-  "installCommand": "npm install",
-  "framework": "nextjs",
-  "rootDirectory": "mobcheese-solana/app"
-}
+{"version":2,"buildCommand":"npm run build","outputDirectory":".next","installCommand":"npm install","framework":"nextjs"}
