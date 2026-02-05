@@ -15,7 +15,8 @@ const WalletModalProvider = dynamic(
   { ssr: false }
 );
 
-// Move wallets array to module level to prevent recreation on every render
+// Module-level wallet adapters array - safe for client components as WalletProvider manages state
+// This prevents unnecessary recreation on every render while WalletProvider handles user sessions
 const wallets = [new PhantomWalletAdapter()];
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

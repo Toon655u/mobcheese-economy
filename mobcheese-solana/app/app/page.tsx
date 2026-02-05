@@ -112,7 +112,7 @@ export default function Home() {
     ) {
       wallet.select(null);
     }
-  }, [wallet.wallet?.adapter?.readyState, wallet]);
+  }, [wallet]);
 
   // Load from environment variables
   const programIdStr = process.env.NEXT_PUBLIC_PROGRAM_ID || "F8MN4tsJWJpRmnBsXZ4i99CkJ9TEWnNsgqqSGJHQdhzz";
